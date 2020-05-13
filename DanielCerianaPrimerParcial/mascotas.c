@@ -76,10 +76,10 @@ int altaMascota(eMascota* mascota,int tam,int idSiguiente, eTipo* tipo,int tamTi
         while(valorValido < 0);
 
 
-        strcpy(mascota[i].nombreMascota, nombreMascota);
-        mascota[i].idTipo = auxTipo;
-        mascota[i].idColor = auxColor;
-        mascota[i].edad = auxEdad;
+        strcpy(mascota[idSiguiente].nombreMascota, nombreMascota);
+        mascota[idSiguiente].idTipo = auxTipo;
+        mascota[idSiguiente].idColor = auxColor;
+        mascota[idSiguiente].edad = auxEdad;
         mascota[idSiguiente].isEmpty = 0;
         funciona = 1;
     }
