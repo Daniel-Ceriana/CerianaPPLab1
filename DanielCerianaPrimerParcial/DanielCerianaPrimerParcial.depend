@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1589370253 source:c:\users\dceri\desktop\nueva carpeta\danielcerianaprimerparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1589370268 c:\users\dceri\desktop\nueva carpeta\danielcerianaprimerparcial\validaciones.h
+
+1589381335 source:c:\users\dceri\desktop\nueva carpeta\danielcerianaprimerparcial\mascotas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mascotas.h"
+	"validaciones.h"
+
+1589378749 source:c:\users\dceri\desktop\nueva carpeta\danielcerianaprimerparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mascotas.h"
+	"validaciones.h"
+
+1589381412 c:\users\dceri\desktop\nueva carpeta\danielcerianaprimerparcial\mascotas.h
+
