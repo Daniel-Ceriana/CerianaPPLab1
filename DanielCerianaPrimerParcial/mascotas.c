@@ -165,7 +165,7 @@ void mostrarMascotas(eMascota* mascotas,int tam, eTipo* tipos, int tamTipos, eCo
     }
     if (flag == 0)
     {
-        printf("No hay empleados que listar\n\n");
+        printf("No hay Mascotas que listar\n\n");
     }
 }
 
