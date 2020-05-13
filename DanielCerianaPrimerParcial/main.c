@@ -96,7 +96,7 @@ int main()
 
             if(idSiguiente > 0)
             {
-
+            modMascota(mascota,tam,tipos,tamTipos,colores,tamColores);
             }
             else
             {
@@ -186,10 +186,26 @@ int modMascota(eMascota* mascota, int tam, eTipo* tipos, int tamTipos,eColor* co
         opcion = menuModMascota();
         switch(opcion){
     case 1:
+        mostrarTipo(tipos,tamTipos);
+        mostrarTipo(tipo,tamTipo);
+        do
+        {
+            valorValido = utn_getNumero(&auxTipo,"Ingrese el tipo de mascota: ","\nError. El valor ingresado no es valido\n",1000,(1000+tamTipo),5);
+        }
+        while(valorValido < 0);
+
+
 
         retorno = 0;
         break;
     case 2:
+        mostrarColor(color,tamColor);
+        do
+        {
+            valorValido = utn_getNumero(&auxColor,"Ingrese el color de mascota: ","\nError. El valor ingresado no es valido\n",5000,(5000+tamColor),5);
+        }
+        while(valorValido < 0);
+        mostrarColor(colores,tamColores);
 
         retorno = 0;
         break;
